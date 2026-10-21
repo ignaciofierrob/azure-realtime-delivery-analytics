@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+._*
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Spark / generated data
+spark-warehouse/
+derby.log
+metastore_db/
+checkpoint/
+checkpoints/
+*.parquet
+*.crc
+_SUCCESS
+*.avro
+output/
+batches/
+
+# Credentials (never commit)
+.env
+.env.*
+*.key
+*_secret.json
+connection_strings.txt
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Archives
+*.zip
